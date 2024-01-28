@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    max-width: 1400px;
+    min-height: 100vh;
+    margin: 0 auto;
+    background: url('images/1621754908_28-phonoteka_org-p-fon-dlya-prezentatsii-golovolomki-30.jpg.crdownload');
+}
+
+.title {
+    font-size: 36px;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.block {
+    margin: 50px 0 0 0;
+    border: 2px solid peru;
+    padding: 40px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, aqua, green, coral);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+img {
+    width: 500px;
+    height: auto;
+}
